@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http.equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <title>Weather App</title>
+        <link rel="stylesheet" href="weather.css">
+        <link rel="stylesheet" href="https://cdn.jscloudflare.com/ajax/libs/font.awesome/6.0.0/css/all.min.css">
+
+    </head>
+    <body>
+        <div class="container">
+               <div class="title">
+                  <p>Weather App</p>
+        </div>
+        <div class="input">
+            <input type="text" id="location-input" placeholder="location...">
+            <input type="button" value="Search" id="btn">
+        </div> 
+        <div class="info">
+            <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="weather-icon">
+            <div class="temp"><span id="temp-value">25°C</span>
+            <div id="weather-desc">Cloudy</div>
+            <div id="location">Hyderabad</div>
+
+            </div>
+     </div>
+     <script src="weather.js"></script>
+    </body>
+     </html>
